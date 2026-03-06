@@ -79,7 +79,7 @@ export default function App() {
                   )}
                 </div>
                 <h1 className="font-sans text-2xl tracking-wide text-yellow-500 mb-2 text-center font-medium">
-                  Enter password to continue, <span className="font-bold tracking-wide bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]">Diksha</span> ✍🏻 
+                  Enter password to continue, <span className="font-bold italic tracking-wide text-red-500 drop-shadow-[0_0_8px_rgba(239,68,68,0.9)] drop-shadow-[0_0_20px_rgba(239,68,68,0.7)]">Diksha</span> ✍🏻
                 </h1>
                 <p className="text-sm font-sans leading-relaxed text-rose-300 text-center max-w-xs mx-auto pb-2">Apni birthday date dalo DDMM format me eg. 1 march-0103, 14 feb-1402 main page kholne ke liye hehehe 😝</p>
               </div>
