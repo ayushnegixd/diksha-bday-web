@@ -1,4 +1,4 @@
-# 🎂 VisionTask: Personalized Birthday Scrapbook
+# 🎂 Personalized Birthday Scrapbook
 
 A high-end, mobile-optimized digital scrapbook built for a friend. This project focuses on **Glassmorphism UI/UX**, responsive layouts, and interactive frontend elements.
 
