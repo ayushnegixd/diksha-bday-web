@@ -81,7 +81,7 @@ export default function App() {
                 <h1 className="font-sans text-2xl tracking-wide text-yellow-500 mb-2 text-center font-medium">
                   Enter password to continue, <span className="font-bold tracking-wide bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]">Diksha</span> ✍🏻 
                 </h1>
-                <p className="text-sm font-sans leading-relaxed text-rose-300 text-center max-w-xs mx-auto pb-2">Enter your birthday date in DDMM format eg. 1 march-0103, 14 feb-1402 to unlock the main page hehehe 😝</p>
+                <p className="text-sm font-sans leading-relaxed text-rose-300 text-center max-w-xs mx-auto pb-2">Apni birthday date dalo DDMM format me eg. 1 march-0103, 14 feb-1402 main page kholne ke liye hehehe 😝</p>
               </div>
               <form onSubmit={handleUnlock} className="relative flex flex-col items-center gap-4">
                 <div className="relative w-full">
