@@ -3,8 +3,8 @@ import { GALLERY_CONTENT } from '../constants/content';
 
 export default function Gallery() {
   return (
-    <div className="w-full bg-transparent py-8 sm:py-16 px-4 sm:px-8 text-zinc-900 overflow-hidden font-serif">
-      <div className="max-w-4xl mx-auto w-full">
+    <div className="w-full bg-transparent py-8 sm:py-16 px-4 text-zinc-900 overflow-hidden font-serif">
+      <div className="max-w-[1400px] mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ export default function Gallery() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-12 mb-24">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-6 md:gap-8 mb-24">
           {GALLERY_CONTENT.photos.map((photo, index) => (
             <motion.div
               key={photo.id}
@@ -42,7 +42,7 @@ export default function Gallery() {
                 transform: `rotate(${photo.rotation}deg)`
               }}
             >
-              <div className="bg-white/30 backdrop-blur-xl border border-white/20 border-t-2 border-t-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] p-3 sm:p-4 hover:shadow-[0_12px_40px_0_rgba(31,38,135,0.1)] transition-shadow duration-300 flex flex-col h-full">
+              <div className="bg-white/30 backdrop-blur-xl border border-white/20 border-t-2 border-t-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] p-2 sm:p-3 hover:shadow-[0_12px_40px_0_rgba(31,38,135,0.1)] transition-shadow duration-300 flex flex-col h-full">
                 <div className="aspect-square mb-6 shrink-0 overflow-hidden bg-zinc-100/50 flex items-center justify-center relative border border-gray-100">
                   <span className="text-zinc-300 absolute z-0 select-none font-mono text-xs sm:text-sm leading-none flex items-center justify-center h-full w-full opacity-50">IMAGE {photo.id}</span>
                   <img

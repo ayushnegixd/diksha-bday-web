@@ -1,6 +1,6 @@
 export const LOCK_SCREEN = {
   password: "0803",
-  title: "Enter password to continue",
+  title: "Enter password to continue, Diksha ✍🏻",
   errorMsg: "apni hi bday date nhi pta kya?🤣",
   successMsg: "unlocking...",
 };
